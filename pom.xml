@@ -95,12 +95,11 @@
 				<artifactId>site-maven-plugin</artifactId>
 				<version>0.12</version>
 				<configuration>
-					<message>Creating site for ${project.version}</message>
+					<message>Creating site for ${project.artifactId} ${project.version}</message>
 					<dryRun>false</dryRun>
 					<outputDirectory>target/repository</outputDirectory>
 					<noJekyll>true</noJekyll>
 					<merge>true</merge>
-					<oauth2Token>78309f80489e84272046078b17c3f3b6377048d5</oauth2Token>
 				</configuration>
 			</plugin>
 		</plugins>
