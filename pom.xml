@@ -31,6 +31,10 @@
                                     <id>org.assertj:assertj-core:2.2.0</id>
                                     <source>true</source>
                                 </artifact>
+                                <artifact>
+                                    <id>com.tngtech.java:junit-dataprovider:1.10.2</id>
+                                    <source>true</source>
+                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>
