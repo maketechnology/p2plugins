@@ -45,6 +45,10 @@
 									<id>com.tngtech.java:junit-dataprovider:1.10.2</id>
 									<source>true</source>
 								</artifact>
+								<artifact>
+									<id>io.socket:socket.io-client:0.7.0</id>
+									<source>true</source>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>

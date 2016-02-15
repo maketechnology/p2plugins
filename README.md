@@ -14,14 +14,14 @@ See https://github.com/reficio/p2-maven-plugin for details
 
 Run:
 ```
-$ mvn package
+mvn package
 ```
 
 ## Run local p2 repository
 
 Run:
 ```
-$ mvn jetty:run
+mvn jetty:run
 ```
 
 ## Deploy p2 repository to gh-pages
@@ -31,6 +31,6 @@ http://maketechnology.github.io/p2plugins
 
 Run:
 ```
-$ mvn site:site -Dgithub.global.userName=user -Dgithub.global.password=pass
+mvn site:site -Dgithub.global.userName=user -Dgithub.global.password=pass
 ```
 
