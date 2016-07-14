@@ -6,7 +6,7 @@ stages:
 build.p2:
   stage: build
   script:
-    - mvn package
-    - mvn site:site -Dgithub.global.userName=${GITHUB_USER} -Dgithub.global.password=${GITHUB_PASS}
+    - mvn -B -nsu package
+    - mvn -B -nsu site:site -Dgithub.global.userName=${GITHUB_USER} -Dgithub.global.password=${GITHUB_PASS}
   only: 
     - master
