@@ -1,0 +1,12 @@
+image: maketechnology/jdk:8-mvn-git
+
+stages:
+  - build
+
+build.p2:
+  stage: build
+  script:
+    - mvn package
+    - mvn site:site -Dgithub.global.userName=${GITHUB_USER} -Dgithub.global.password=${GITHUB_PASS}
+  only: 
+    - master

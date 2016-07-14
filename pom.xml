@@ -36,6 +36,10 @@
 								<artifact>
 									<id>com.tngtech.jgiven:jgiven-junit:0.10.1</id>
 									<source>true</source>
+									<instructions>
+							        	<Import-Package>*</Import-Package>
+							        	<Export-Package>*</Export-Package>
+							        </instructions>
 								</artifact>
 								<artifact>
 									<id>org.assertj:assertj-core:2.2.0</id>
