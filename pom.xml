@@ -51,6 +51,23 @@
 							        </instructions>
 								</artifact>
 								<artifact>
+									<id>com.tngtech.jgiven:jgiven-junit:0.11.4</id>
+									<source>true</source>
+									<instructions>
+							        	<Import-Package>*</Import-Package>
+							        	<Export-Package>*</Export-Package>
+							        </instructions>
+								</artifact>
+								<artifact>
+									<id>com.tngtech.jgiven:jgiven-core:0.11.4</id>
+									<source>true</source>
+									<instructions>
+							        	<!--Import-Package>*,org.fusesource.jansi.internal;resolution:=optional</Import-Package-->
+							        	<Import-Package>*</Import-Package>
+							        	<Export-Package>*</Export-Package>
+							        </instructions>
+								</artifact>
+								<artifact>
 									<id>com.tngtech.java:junit-dataprovider:1.11.0</id>
 									<source>true</source>
 								</artifact>
