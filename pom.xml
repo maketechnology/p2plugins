@@ -33,6 +33,14 @@
 						<!-- To run the example please invoke: mvn p2:site -->
 						<configuration>
 							<artifacts>
+								<!--artifact>
+									<id>org.fusesource.jansi:jansi:1.11</id>
+									<source>true</source>
+									<instructions>
+							        	<Import-Package>*</Import-Package>
+							        	<Export-Package>*</Export-Package>
+							        </instructions>
+								</artifact-->
 								<artifact>
 									<id>com.tngtech.jgiven:jgiven-junit:0.10.1</id>
 									<source>true</source>
@@ -62,8 +70,8 @@
 									<id>com.tngtech.jgiven:jgiven-core:0.11.4</id>
 									<source>true</source>
 									<instructions>
-							        	<!--Import-Package>*,org.fusesource.jansi.internal;resolution:=optional</Import-Package-->
-							        	<Import-Package>*</Import-Package>
+							        	<Import-Package>*,org.fusesource.jansi.internal;resolution:=optional</Import-Package>
+							        	<!--Import-Package>*</Import-Package-->
 							        	<Export-Package>*</Export-Package>
 							        </instructions>
 								</artifact>
