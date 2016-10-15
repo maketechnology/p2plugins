@@ -91,6 +91,10 @@
 									<id>org.zeroturnaround:zt-exec:1.9</id>
 									<source>true</source>
 								</artifact>
+								<artifact>
+									<id>org.awaitility:awaitility:2.0.0</id>
+									<source>true</source>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
