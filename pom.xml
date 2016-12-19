@@ -92,6 +92,10 @@
 									<source>true</source>
 								</artifact>
 								<artifact>
+									<id>org.zeroturnaround:zt-process-killer:1.4</id>
+									<source>true</source>
+								</artifact>
+								<artifact>
 									<id>org.awaitility:awaitility:2.0.0</id>
 									<source>true</source>
 									<instructions>

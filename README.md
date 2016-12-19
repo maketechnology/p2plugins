@@ -29,7 +29,7 @@ mvn jetty:run
 p2 repository will be available at:
 http://maketechnology.github.io/p2plugins
 
-Run:
+Run (don't run manually, it's created by mirrored gitlab CI):
 ```
 mvn site:site -Dgithub.global.userName=user -Dgithub.global.password=pass
 ```
