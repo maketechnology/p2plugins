@@ -76,25 +76,64 @@
 							        </instructions>
 								</artifact>
 								<artifact>
+									<id>com.tngtech.jgiven:jgiven-junit:0.14.0</id>
+									<source>true</source>
+									<instructions>
+							        	<Import-Package>*</Import-Package>
+							        	<Export-Package>*</Export-Package>
+							        </instructions>
+								</artifact>
+								<artifact>
+									<id>com.tngtech.jgiven:jgiven-core:0.14.0</id>
+									<source>true</source>
+									<instructions>
+							        	<Import-Package>*,org.fusesource.jansi.internal;resolution:=optional</Import-Package>
+							        	<!--Import-Package>*</Import-Package-->
+							        	<Export-Package>*</Export-Package>
+							        </instructions>
+								</artifact>
+
+								<artifact>
 									<id>com.tngtech.java:junit-dataprovider:1.11.0</id>
 									<source>true</source>
 								</artifact>
+								<artifact>
+									<id>com.tngtech.java:junit-dataprovider:1.12.0</id>
+									<source>true</source>
+								</artifact>
+
 								<artifact>
 									<id>org.assertj:assertj-core:2.5.0</id>
 									<source>true</source>
 								</artifact>
 								<artifact>
+									<id>org.assertj:assertj-core:3.6.2</id>
+									<source>true</source>
+								</artifact>
+
+								<artifact>
 									<id>io.socket:socket.io-client:0.7.0</id>
 									<source>true</source>
 								</artifact>
 								<artifact>
+									<id>io.socket:socket.io-client:0.8.3</id>
+									<source>true</source>
+								</artifact>
+
+								<artifact>
 									<id>org.zeroturnaround:zt-exec:1.9</id>
 									<source>true</source>
 								</artifact>
+								
 								<artifact>
 									<id>org.zeroturnaround:zt-process-killer:1.4</id>
 									<source>true</source>
 								</artifact>
+								<artifact>
+									<id>org.zeroturnaround:zt-process-killer:1.5</id>
+									<source>true</source>
+								</artifact>
+								
 								<artifact>
 									<id>org.awaitility:awaitility:2.0.0</id>
 									<source>true</source>
