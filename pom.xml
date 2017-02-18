@@ -76,7 +76,7 @@
 							        </instructions>
 								</artifact>
 								<artifact>
-									<id>com.tngtech.jgiven:jgiven-junit:0.14.0</id>
+									<id>com.tngtech.jgiven:jgiven-junit:0.14.1</id>
 									<source>true</source>
 									<instructions>
 							        	<Import-Package>*</Import-Package>
@@ -84,7 +84,7 @@
 							        </instructions>
 								</artifact>
 								<artifact>
-									<id>com.tngtech.jgiven:jgiven-core:0.14.0</id>
+									<id>com.tngtech.jgiven:jgiven-core:0.14.1</id>
 									<source>true</source>
 									<instructions>
 							        	<Import-Package>*,org.fusesource.jansi.internal;resolution:=optional</Import-Package>
