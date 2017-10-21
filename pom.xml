@@ -155,6 +155,22 @@
 									<id>com.github.jnr:jnr-posix:3.0.34</id>
 									<source>true</source>
 								</artifact>
+								<artifact>
+									<id>org.eclipse.jetty:jetty-proxy:9.4.6.v20170531</id>
+									<source>true</source>
+								</artifact>
+								<artifact>
+									<id>javax.servlet:javax.servlet-api:3.0.1</id>
+									<source>true</source>
+								</artifact>
+								<artifact>
+									<id>org.eclipse.jetty:jetty-webapp:9.4.6.v20170531</id>
+									<source>true</source>
+								</artifact>
+								<artifact>
+									<id>org.eclipse.jetty:jetty-server:9.4.6.v20170531</id>
+									<source>true</source>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
