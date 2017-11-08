@@ -171,6 +171,14 @@
 									<id>org.eclipse.jetty:jetty-server:9.4.6.v20170531</id>
 									<source>true</source>
 								</artifact>
+								<artifact>
+									<id>org.eclipse.jetty:jetty-servlets:9.4.6.v20170531</id>
+									<source>true</source>
+								</artifact>
+								<artifact>
+									<id>org.littleshoot:littleproxy:1.1.2</id>
+									<source>true</source>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
