@@ -42,23 +42,6 @@
 							        </instructions>
 								</artifact-->
 								<artifact>
-									<id>com.tngtech.jgiven:jgiven-junit:0.10.1</id>
-									<source>true</source>
-									<instructions>
-							        	<Import-Package>*</Import-Package>
-							        	<Export-Package>*</Export-Package>
-							        </instructions>
-								</artifact>
-								<artifact>
-									<id>com.tngtech.jgiven:jgiven-core:0.10.1</id>
-									<source>true</source>
-									<instructions>
-							        	<!--Import-Package>*,org.fusesource.jansi.internal;resolution:=optional</Import-Package-->
-							        	<Import-Package>*</Import-Package>
-							        	<Export-Package>*</Export-Package>
-							        </instructions>
-								</artifact>
-								<artifact>
 									<id>com.tngtech.jgiven:jgiven-junit:0.11.4</id>
 									<source>true</source>
 									<instructions>
@@ -92,6 +75,23 @@
 							        	<Export-Package>*</Export-Package>
 							        </instructions>
 								</artifact>
+								<artifact>
+									<id>com.tngtech.jgiven:jgiven-junit:0.15.3</id>
+									<source>true</source>
+									<instructions>
+							        	<Import-Package>*</Import-Package>
+							        	<Export-Package>*</Export-Package>
+							        </instructions>
+								</artifact>
+								<artifact>
+									<id>com.tngtech.jgiven:jgiven-core:0.15.3</id>
+									<source>true</source>
+									<instructions>
+							        	<Import-Package>*,org.fusesource.jansi.internal;resolution:=optional</Import-Package>
+							        	<!--Import-Package>*</Import-Package-->
+							        	<Export-Package>*</Export-Package>
+							        </instructions>
+								</artifact>
 
 								<artifact>
 									<id>com.tngtech.java:junit-dataprovider:1.11.0</id>
@@ -108,6 +108,10 @@
 								</artifact>
 								<artifact>
 									<id>org.assertj:assertj-core:3.6.2</id>
+									<source>true</source>
+								</artifact>
+								<artifact>
+									<id>org.assertj:assertj-core:3.8.0</id>
 									<source>true</source>
 								</artifact>
 
@@ -141,6 +145,10 @@
 							        	<Import-Package>*</Import-Package>
 							        	<Export-Package>*</Export-Package>
 							        </instructions>
+								</artifact>
+								<artifact>
+									<id>org.awaitility:awaitility:3.0.0</id>
+									<source>true</source>
 								</artifact>
 
 								<artifact>
