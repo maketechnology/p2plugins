@@ -195,6 +195,10 @@
 									<id>org.littleshoot:littleproxy:1.1.2</id>
 									<source>true</source>
 								</artifact>
+								<artifact>
+									<id>org.java-websocket:Java-WebSocket:1.3.6</id>
+									<source>true</source>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
