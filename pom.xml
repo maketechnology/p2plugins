@@ -178,6 +178,23 @@
 								<artifact>
 									<id>org.littleshoot:littleproxy:1.1.2</id>
 									<source>true</source>
+									<instructions>
+									<Import-Package>*,commons-cli.commons-cli.com;resolution:=optional,
+										junit;resolution:=optional,
+										org.hamcrest.hamcrest-core;resolution:=optional,
+										org.hamcrest.hamcrest-library;resolution:=optional,
+										org.eclipse.jetty.jetty-server;resolution:=optional,
+										org.mockito.mockito-core;resolution:=optional,
+										org.mock-server.mockserver-netty;resolution:=optional,
+										org.seleniumhq.selenium.selenium-java;resolution:=optional,
+										log4j;resolution:=optional,
+										org.apache.httpcomponents.httpclient;resolution:=optional,
+										org.littleshoot.dnssec4j;resolution:=optional,
+										dnsjava;resolution:=optional,
+										org.slf4j.slf4j-log4j12;resolution:=optional,
+										org.apache.commons.commons-exec;resolution:=optional</Import-Package>
+									<Export-Package>*</Export-Package>
+							        </instructions>
 								</artifact>
 								<artifact>
 									<id>org.java-websocket:Java-WebSocket:1.3.6</id>
