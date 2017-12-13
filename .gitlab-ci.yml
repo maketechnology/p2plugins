@@ -1,4 +1,4 @@
-image: maketechnology/jdk:8-mvn-git
+image: registry.gitlab.com/maketechpub/docker/alpine:jdk8.mvn
 
 stages:
   - build
