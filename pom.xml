@@ -229,6 +229,10 @@
 							        </instructions>
 									<source>true</source>
 								</artifact>
+								<artifact>
+									<id>biz.aQute.bnd:biz.aQute.launcher:3.5.0</id>
+									<source>true</source>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
