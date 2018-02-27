@@ -10,7 +10,16 @@
 
 	<properties>
 		<repo.name>Make Technology P2 Repository</repo.name>
+		<target-repo>http://www.wemaketechnology.com/p2plugins</target-repo>
 	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>biz.aQute.bnd</groupId>
+			<artifactId>org.osgi.impl.bundle.repoindex.cli</artifactId>
+			<version>3.5.0</version>
+		</dependency>
+	</dependencies>
 
 	<scm>
 		<url>https://github.com/maketechnology/p2plugins</url>
@@ -230,6 +239,10 @@
 									<source>true</source>
 								</artifact>
 								<artifact>
+									<id>biz.aQute.bnd:biz.aQute.bndlib:3.5.0</id>
+									<source>true</source>
+								</artifact>
+								<artifact>
 									<id>biz.aQute.bnd:biz.aQute.launcher:3.5.0</id>
 									<source>true</source>
 								</artifact>
@@ -237,6 +250,32 @@
 						</configuration>
 					</execution>
 				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.6.0</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>java</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<mainClass>org.osgi.impl.bundle.bindex.cli.Index</mainClass>
+					<arguments>
+						<argument>${project.build.directory}/repository/plugins</argument>
+						<argument>-r</argument>
+						<argument>${project.build.directory}/repository/index.xml.gz</argument>
+						<argument>-n</argument>
+						<argument>${repo.name}</argument>
+						<argument>-t</argument>
+						<argument>${target-repo}/plugins/%f</argument>
+					</arguments>
+				</configuration>
 			</plugin>
 
 			<plugin>
