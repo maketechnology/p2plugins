@@ -10,7 +10,7 @@
 
 	<properties>
 		<repo.name>Make Technology P2 Repository</repo.name>
-		<target-repo>http://www.wemaketechnology.com/p2plugins</target-repo>
+		<target-repo>http://maketechnology.io/p2plugins</target-repo>
 	</properties>
 
 	<dependencies>
