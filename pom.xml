@@ -246,6 +246,14 @@
 									<id>biz.aQute.bnd:biz.aQute.launcher:3.5.0</id>
 									<source>true</source>
 								</artifact>
+								<artifact>
+									<id>org.influxdb:influxdb-java:2.9</id>
+									<instructions>
+										<Import-Package>*</Import-Package>
+										<Export-Package>*</Export-Package>
+									</instructions>
+									<source>true</source>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
